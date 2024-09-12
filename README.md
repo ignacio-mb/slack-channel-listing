@@ -1,3 +1,10 @@
-This spits out a bunch of logs, you might wanna comment those out.
+## Slack API token generation
+Head out to this [web page](https://api.slack.com/apps/), create a new app and set permissions to be:
 
-Generates a csv file with the data.
+- app_mentions:read
+- channels:read
+- conversations.connect:read
+- groups:read
+- users.profile:read
+- users:read
+- users:read.email
